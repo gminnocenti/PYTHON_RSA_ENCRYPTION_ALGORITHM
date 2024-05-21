@@ -1,11 +1,7 @@
 from generador_numeros import LinearCongruentialGenerator,generate_random_prime_in_range
 from mapeoLetras_a_numeros import ascii_mapping,from_ascii_mapping
 from leer_p import cargar_p
-"""
-- HACE FALTA CREAR BASE DE DATOS EN SQL CON COLUMNA MENSAJE_ENCRIPTADO | P | Q | E
-- ALGORITMO DE ENCRIPTACION CON  .KEY LOCAL EL CUAL ENCRIPTA P Q E Y LO MANDA A LA BASE DE DATOS CON EL MENSAJE ENCRIPTADO MEDIANTE RSA
--ALGORITMO DE DESINCIPTACION QUE DESENCRIPTE P Q A 
-"""
+
 import random
 
 def convertir_bytes(n):
